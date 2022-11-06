@@ -1,0 +1,33 @@
+{
+  "name": "@bsebas/bin2dec",
+  "version": "1.0.0",
+  "description": "Bin2Dec allows strings of up to 8 binary digits, 0's and 1's, in any sequence and then converted to their decimal equivalent.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "co": "sui-mono commit",
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsebas/app-ideas.git"
+  },
+  "keywords": [
+    "binary",
+    "decimal"
+  ],
+  "author": "Sebastian Beltran <bjohansebas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsebas/app-ideas/issues"
+  },
+  "homepage": "https://github.com/bsebas/app-ideas#readme",
+  "devDependencies": {
+    "@s-ui/mono": "^2.34.0",
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
